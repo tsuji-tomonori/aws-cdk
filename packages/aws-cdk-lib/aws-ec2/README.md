@@ -625,8 +625,8 @@ const vpc = ec2.Vpc.fromVpcAttributes(this, 'VPC', {
 
 The above example will create an `IVpc` instance with three public subnets:
 
-| Subnet id | Availability zone | Subnet name | Route table id | IPv4 CIDR   |
-| --------- | ----------------- | ----------- | -------------- | ----------- |
+| Subnet id | Availability zone | Subnet name | Route table id | IPv4 CIDR   |
+|-----------|-------------------|-------------|----------------|-------------|
 | s-12345   | us-east-1a        | Subnet A    | rt-12345       | 10.0.0.0/24 |
 | s-34567   | us-east-1b        | Subnet B    | rt-34567       | 10.0.1.0/24 |
 | s-56789   | us-east-1c        | Subnet B    | rt-56789       | 10.0.2.0/24 |
